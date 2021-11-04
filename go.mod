@@ -1,11 +1,9 @@
-module github.com/larikhide/reguser.git
+module github.com/larikhide/reguser
 
-// +heroku goVersion go1.17
 go 1.17
 
 require (
 	github.com/deepmap/oapi-codegen v1.9.0
-	github.com/larikhide/reguser v0.0.0-20211021190409-f4c18aab80d3
 	github.com/getkin/kin-openapi v0.80.0
 	github.com/gin-gonic/gin v1.7.4
 	github.com/go-chi/chi/v5 v5.0.5
