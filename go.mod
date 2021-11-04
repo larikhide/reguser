@@ -1,6 +1,6 @@
 module github.com/larikhide/reguser.git
 
-// +heroku hoVersion 1.17
+// +heroku hoVersion go1.17
 go 1.17
 
 require (
