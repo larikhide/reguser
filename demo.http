@@ -1,0 +1,16 @@
+# curl -u admin:admin -H "Content-Type: application/json" -X GET https://gb-backend-reguser.herokuapp.com/search/u
+GET https://gb-backend-reguser.herokuapp.com/search/u
+Authorization: Basic admin admin
+Content-Type: application/json
+
+###
+
+# curl -u admin:admin -H "Content-Type: application/json" -X POST -d '{"name":"user222"}' https://gb-backend-reguser.herokuapp.com/create
+POST https://gb-backend-reguser.herokuapp.com/create
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{"name":"user322"}
+
+###
+
