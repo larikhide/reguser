@@ -1,16 +1,25 @@
-# curl -u admin:admin -H "Content-Type: application/json" -X GET https://gb-backend-reguser.herokuapp.com/search/u
-GET https://gb-backend-reguser.herokuapp.com/search/u
-Authorization: Basic admin admin
+# curl --location --request POST 'https://gb-backend1-reguser.herokuapp.com/create'
+#--header 'Content-MD5: application/json'
+#--header 'Authorization: Basic YWRtaW46YWRtaW4='
+#--header 'Content-Type: application/json'
+#--data-raw '{"name":"userpuser"}'
+POST https://gb-backend1-reguser.herokuapp.com/create
+Content-MD5: application/json
+Authorization: Basic YWRtaW46YWRtaW4=
 Content-Type: application/json
+
+{"name":"userpuser322"}
 
 ###
 
-# curl -u admin:admin -H "Content-Type: application/json" -X POST -d '{"name":"user222"}' https://gb-backend-reguser.herokuapp.com/create
-POST https://gb-backend-reguser.herokuapp.com/create
-Authorization: Basic admin admin
-Content-Type: application/json
-
-{"name":"user322"}
+# curl --location --request GET 'https://gb-backend1-reguser.herokuapp.com/search/us'
+#--header 'Content-MD5: application/json'
+#--header 'Authorization: Basic YWRtaW46YWRtaW4='
+#--data-raw ''
+GET https://gb-backend1-reguser.herokuapp.com/search/us
+Content-MD5: application/json
+Authorization: Basic YWRtaW46YWRtaW4=
+Content-Type: application/x-www-form-urlencoded
 
 ###
 
